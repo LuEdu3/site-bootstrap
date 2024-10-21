@@ -1,0 +1,14 @@
+html ,.row , #idProdutos{
+    background-color: black;
+    
+}
+body{
+    
+}
+.row{
+    width: 600px;
+}
+.classProdutos{
+    margin-left: 30%;
+    padding-top: 3%; 
+}

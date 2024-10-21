@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@font-face {
+    font-family: 'chineseRocks';
+    src: url(chinese_rocks_rg.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+#corpoQuemSomos{
+    height: 300px;
+    background-image: url(photo/mesa-de-buffet-com-lanches-de-queijos-hamburgueres-etc_140725-9343.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.backQuemSomos{
+    font-family: "chineseRocks", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+.imgQuemSomos{
+
+}
+html{
+    background-color: white;
+
+}
+main{
+    /* background-color: black; */
+}
+body{
+    background-color: black;
+    /* color: black; */
+}
