@@ -18,7 +18,7 @@ body{
 }
 .classProdutos{
     margin-left: 30%;
-    padding-top: 3%; 
+    padding-top: 2%; 
 }
 .card-body{
     width: 274px;
@@ -27,4 +27,7 @@ body{
 .card-img-top{
     width: 274px;
     height: 210px;
+}
+button.btn-primary {
+    background-color: darkgoldenrod;
 }
