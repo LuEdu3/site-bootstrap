@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@font-face {
+    font-family: 'chineseRocks';
+    src: url(chinese_rocks_rg.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 html ,.row , #idProdutos{
     background-color: black;
-    
+    font-family: "chineseRocks", sans-serif;   
 }
 body{
     
@@ -12,4 +19,12 @@ body{
 .classProdutos{
     margin-left: 30%;
     padding-top: 3%; 
+}
+.card-body{
+    width: 274px;
+    height: 190px;
+}
+.card-img-top{
+    width: 274px;
+    height: 210px;
 }

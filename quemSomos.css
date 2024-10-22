@@ -5,21 +5,36 @@
     font-weight: normal;
     font-style: normal;
 }
+.col{
+    display: flex;
+    width: 286px;
+    height: 510px;
+}
+.card-img-top{
+    width: 286px;
+    height: 196.66px;
+}
+.gridQuemSomos{
+    margin-top: 10px;
+}
+.btn.btn-primary{
+    display: flex;
+    align-items: end;
+}
 #corpoQuemSomos{
     height: 300px;
-    background-image: url(photo/mesa-de-buffet-com-lanches-de-queijos-hamburgueres-etc_140725-9343.avif);
+    background-image: url(photo/somos-restaurant.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     display: flex;
     align-content: center;
     justify-content: center;
-
 }
 .backQuemSomos{
     font-family: "chineseRocks", sans-serif;
-    font-size: 30px;
-    color: white;
+    font-size: 60px;
+    color:white;
     margin-bottom: auto;
     margin-top: auto;
     
@@ -28,8 +43,7 @@
 
 }
 html{
-    background-color: white;
-
+    background-color: black;
 }
 main{
     /* background-color: black; */

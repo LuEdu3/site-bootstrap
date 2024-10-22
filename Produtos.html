@@ -2,21 +2,23 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <link rel="stylesheet" href="Produtos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="Produtos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burguer</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="Principal.html">
-            <img src="photo/beef-burger-cutout-free-png.png" alt="Bootstrap" width="30" height="24">
-            Burguer
-        </a>
+      <a class="navbar-brand" href="Principal.html">
+        <img src="photo/beef-burger-cutout-free-png.png" alt="Bootstrap" width="30" height="24">
+        Burguer
+      </a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -25,80 +27,170 @@
 
           <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <li class="nav-item">
-            <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="quemSomos.html">Quem Somos</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="quemSomos.html">Quem
+                Somos</a></li>
           </nav>
           </li>
 
           <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-          <li class="nav-item">
-          <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="Produtos.html">Produtos</a></li>
-         </nav>
-          </li>
-
-          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <li class="nav-item">
-            <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="Comprar.html">Comprar</a></li>
-           </nav>
+            <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="Produtos.html">Produtos</a>
             </li>
-
-            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-              <li class="nav-item">
-              <li class="breadcrumb-item active" aria-current="page"><a class="nav-link" href="saibaMais.html">Saiba Mais</a></li>
-             </nav>
-              </li>
-          
+          </nav>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <main>
-        <div id="idProdutos">
-            <div class="classProdutos">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="photo/hambuger.png" class="card-img-top" alt="hambuguer 2">
-                        <div class="card-body">
-                          <h5 class="card-title">Monstro Burguer</h5>
-                          <p class="card-text">Hambúguer monstro vem com 2 bifes 120g, queijo cheddar, tomate, alface, pao tipo brioche tostado.</p>
-                          <a href="Comprar.html" class="btn btn-primary">Compre Agora</a>
-                        </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <main>
+    <div id="idProdutos">
+      <div class="classProdutos">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="photo/hambuger.png" class="card-img-top" alt="hambuguer 2">
+              <div class="card-body">
+                <h5 class="card-title">Monstro Burguer</h5>
+                <p class="card-text">Hambúguer monstro vem com 2 bifes 120g, queijo cheddar, tomate, alface, pao tipo
+                  brioche tostado.</p>
+                <a href="#" class="btn btn-primary">Compre Agora</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Saiba Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="photo/beef-burger-cutout-free-png.png" class="card-img-top" alt="hambuger picles">
-                        <div class="card-body">
-                          <h5 class="card-title">MacBuguer</h5>
-                          <p class="card-text">Pão brioche, picles e alface, queijo tipo cheddar e um bife de 140g.</p>
-                          <a href="Comprar.html" class="btn btn-primary">Compre Agora</a>
-                        </div>
+                      <div class="modal-body">
+                        ...
                       </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="photo/batatafritabacon.png" class="card-img-top" alt="batatafritabacon">
-                        <div class="card-body">
-                          <h5 class="card-title">Batata com cheddar e bacon</h5>
-                          <p class="card-text">Porção de batata com cheddar e bacon (400g).</p>
-                          <a href="Comprar.html" class="btn btn-primary">Compre Agora</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="photo/sucos.png" class="card-img-top" alt="sucos">
-                        <div class="card-body">
-                          <h5 class="card-title">Sucos Naturais</h5>
-                          <p class="card-text">Sucos feitos na hora.</p>
-                          <a href="Comprar.html" class="btn btn-primary">Compre Agora</a>
-                        </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
                       </div>
                     </div>
                   </div>
+                </div>
+
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="photo/beef-burger-cutout-free-png.png" class="card-img-top" alt="hambuger picles">
+              <div class="card-body">
+                <h5 class="card-title">MacBuguer</h5>
+                <p class="card-text">Pão brioche, picles e alface, queijo tipo cheddar e um bife de 140g.</p>
+                <a href="#" class="btn btn-primary">Compre Agora</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Saiba Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="photo/batatafritabacon.png" class="card-img-top" alt="batatafritabacon">
+              <div class="card-body">
+                <h5 class="card-title">Batata com cheddar e bacon</h5>
+                <p class="card-text">Porção de batata com cheddar e bacon (400g).</p>
+                <a href="#" class="btn btn-primary">Compre Agora</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Saiba Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="photo/sucos.png" class="card-img-top" alt="sucos">
+              <div class="card-body">
+                <h5 class="card-title">Sucos Naturais</h5>
+                <p class="card-text">Sucos feitos na hora.</p>
+                <a href="#" class="btn btn-primary">Compre Agora</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Saiba Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>

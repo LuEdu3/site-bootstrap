@@ -1,16 +1,59 @@
-html{
-    background-image: url(photo/beef-burger-cutout-free-png.png);
-    background-image: ;
-    background-repeat: no-repeat;
-    background-color:black;
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@font-face {
+    font-family: 'chineseRocks';
+    src: url(chinese_rocks_rg.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
-.textoprincipal{
-    
-    color: white;
-    text-align: center;
+html{
+    /* background-image: url(photo/beef-burger-cutout-free-png.png); */
+    /* background-repeat: no-repeat; */
+    background-color: black;
+    /* background-size: 30%; */
+
+}
+body{
     background-color: black;
 }
-.fotobackground{
-    width: 100px;
+.nome{
+    font-family: "chineseRocks", sans-serif;
+    color: white;
+    font-size: 100px;
+    margin-left: 4%;
+    text-decoration:underline;
+}
+.pai{
+    display: flex;
+    /* justify-content: center; */
+    gap: 80px;
+}
+.oi{
+    margin-top: 50px;
+}
+.textoprincipal{
+    font-family: "chineseRocks", sans-serif;
+    color: white;
+    background-color: black;
+    width: 800px;
+    height: 200px;overflow-x: ;
+}
+.fotoprincipal{
+    width: 500px;
+    width: 500px;
+    /* margin-left: 50%; */
+    overflow: hidden;
+
+}
+.assinatura img{
+    display: flex;
+    margin-left: 55%;
+}
+.assinaturachef{
+    color: white;
+    font-family: "chineseRocks", sans-serif;
+    text-decoration: underline;
+    margin-left: 60%;
+    margin-bottom: 10px;
+    width: 150px;
     height: 100px;
 }
