@@ -6,6 +6,7 @@
     font-style: normal;
 }
 .col{
+    padding-top: 1px;
     display: flex;
     width: 286px;
     height: 510px;
@@ -22,8 +23,8 @@
     align-items: end;
 }
 #corpoQuemSomos{
-    height: 300px;
-    background-image: url(photo/somos-restaurant.jpg);
+    height: 100%;
+    
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -43,12 +44,28 @@
 
 }
 html{
-    background-color: black;
+    background-color: wheat;
 }
 main{
     /* background-color: black; */
 }
 body{
-    background-color: black;
+    background-color:wheat;
     /* color: black; */
+    background-image: url(photo/giphy.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+    height: 100vh;
+    min-width: 100vw;
+    width: 100vw;
+    
 }
+.card{
+    border: 1px white solid;
+    --bs-card-bg: black;
+}
+.card-text,.card-title{
+    color: white;
+}
+
