@@ -20,7 +20,7 @@
 }
 .btn.btn-primary{
     display: flex;
-    align-items: end;
+    
 }
 #corpoQuemSomos{
     height: 100%;
@@ -64,8 +64,8 @@ body{
 .card{
     border: 1px white solid;
     --bs-card-bg: black;
+    align-items: end;
 }
 .card-text,.card-title{
     color: white;
 }
-
