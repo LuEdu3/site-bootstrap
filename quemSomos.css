@@ -69,3 +69,9 @@ body{
 .card-text,.card-title{
     color: white;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* ou use flex-end para alinhar o botão na parte inferior */
+    height: 100%; /* Faz o corpo do cartão ocupar a altura total */
+}

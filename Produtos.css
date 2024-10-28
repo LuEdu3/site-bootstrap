@@ -9,20 +9,12 @@ html ,.row , #idProdutos{
     background-color: black;
     font-family: "chineseRocks", sans-serif;   
 }
-body{
-    
-}
 .row{
     width: 600px;
-    
 }
 .classProdutos{
     margin-left: 30%;
-    padding-top: 2%; 
-}
-.card-body{
-    width: 274px;
-    height: 190px;
+    padding-top: 2%;
 }
 .card-img-top{
     width: 274px;
@@ -30,4 +22,15 @@ body{
 }
 button.btn-primary {
     background-color: darkgoldenrod;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Para empurrar o conteúdo */
+    height: 100%; /* Faz o corpo do cartão ocupar a altura total */
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
 }
