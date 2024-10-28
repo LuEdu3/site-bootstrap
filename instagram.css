@@ -1,0 +1,50 @@
+.navbar {
+    filter: drop-shadow(0px 0px 10px darkgray);
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
+
+.nav-item {
+    display: flex;
+    gap: 150px;
+    position: relative;
+    padding: 20px 20px 20px 20px;
+}
+
+.d-flex {
+    display: flex;
+    position: relative;
+    padding-left: 400px;
+    margin-right: 10%;
+}
+
+#icon {
+    background-image: url(icons/search.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}
+.fotoperfil img{
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 24%;
+    outline: 10px solid red;
+}
+#pai{
+    display: flex;
+}
+bio-nome{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.btn{
+    position: relative;
+    display: flex;
+    
+    filter: drop-shadow(5px 5px 5px darkgray);
+}
