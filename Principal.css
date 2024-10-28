@@ -57,3 +57,9 @@ body{
     width: 150px;
     height: 100px;
 }
+.nav-link{
+    color: black;
+}
+.bg-body-tertiary{
+    background-color: black;
+}
